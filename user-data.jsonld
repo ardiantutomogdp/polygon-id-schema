@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "UserData": {
+        "@id": "https://raw.githubusercontent.com/ardiantutomogdp/polygon-id-schema/main/user-data.jsonld#NikData",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/ardiantutomogdp/polygon-id-schema/main/user-data-vocab",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "nikData": {
+            "@id": "vocab:nikData",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
